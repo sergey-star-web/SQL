@@ -31,7 +31,7 @@ group by c.custid,c.contactname
 --
 -- Execute the written statement and compare the results that you got with the recommended result shown in the file 73 - Lab Exercise 3 - Task 2 Result.txt. 
 --
--- Why didn’t you need to check for a NULL?
+-- Why didnâ€™t you need to check for a NULL?
 ---------------------------------------------------------------------
 select c.custid, c.contactname from Sales.Customers as c, Sales.Orders as o
 WHERE NOT EXISTS (
